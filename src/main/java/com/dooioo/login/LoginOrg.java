@@ -23,7 +23,7 @@ public class LoginOrg extends Page implements Login {
 			
 			driver.get("http://login.dooioo.org");	
 			driver.findElement(By.xpath("//input[@id='usercode']")).sendKeys("196757");
-			driver.findElement(By.xpath("//input[@id='password']")).sendKeys("xuewoaini1314,");
+			driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
 
 			if (driver.findElement(By.id("selectCompanyContainer")).isDisplayed()){	
 				
