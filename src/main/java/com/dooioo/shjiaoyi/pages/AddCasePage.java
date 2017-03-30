@@ -14,6 +14,7 @@ public class AddCasePage extends Page{
 		
 	public AddCasePage(String url ){
 		super(url+"/v2/inquiry/addCase");
+		
 
 	}
 	

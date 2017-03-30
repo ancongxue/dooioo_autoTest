@@ -19,6 +19,7 @@ public class TestCreateCase extends TestJiaoyi {
 	    @Test
 		public void createCase(){
 
+	    	System.out.println("呵呵呵");
 			FangyuanListPage fy = new FangyuanListPage(Config.getFangUrl());
 			fy.open();
 			String houseNo=fy.getHouseNo();

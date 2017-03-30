@@ -16,6 +16,7 @@ public class ViewCasePage extends Page{
 		YiXiangPage yx= new YiXiangPage();
 		yx.fillForm();
 		yx.submit();
+	
 		
 	}
 	

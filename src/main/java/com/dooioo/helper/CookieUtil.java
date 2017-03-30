@@ -32,6 +32,7 @@ public class CookieUtil {
 	 * @param cookieFile
 	 * @throws IOException
 	 */
+	
 	public void storeLoginCookie(File cookieFile) throws IOException {
 		FileWriter out = new FileWriter(cookieFile);
 		BufferedWriter bw = new BufferedWriter(out);
